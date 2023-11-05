@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Seguro</title>
+</head>
+<body>
+    <!--HEADER-->
+    <header>
+        <h1>Seguro No Pagamos Cooperativa</h1>
+    </header>
+    <!--FIN HEADER-->
+    
+    <!--MAIN-->
+    <main>
+        <section id="contenido">
+
+        </section>
+
+        <section id="contacto">
+            <H2>CONTACTO</H2>
+            <p>Completa el siguiente formulario</p>
+            <p>Uno de nuestros asesores te contactará a la brevedad!</p>
+            <form action="/procesar_formulario" method="post">
+                <div class="datos">
+                    <br>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+            
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="apellido" name="apellido" required>
+            
+                    <label for="dni">DNI</label>
+                    <input type="text" id="dni" name="dni" required>
+            
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" required>
+            
+                    <label for="telefono">Teléfono</label>
+                    <input type="text" id="telefono" name="telefono" required>
+                    <br>
+                    <label for="tipo-de-seguro">Qué tipo de seguro o cobertura deseas solicitar?</label>
+                    <select id="tipo-de-seguro" name="tipo-de-seguro">
+                        <option value="basico">Básico: $500</option>
+                        <option value="intermedio">Intermedio: $1000</option>
+                        <option value="premium">Premium: $1500</option>
+                    </select>
+                    <br>
+                    <label for="comentario">Comentario:</label>
+                    <textarea id="comentario" name="comentario" rows="4" cols="50" placeholder="Escribe tu comentario aquí"></textarea>
+                </div>
+                
+                <div class="botones">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Restablecer</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <!--FIN MAIN-->
+    
+    <!--FOOTER-->
+    <footer>
+
+    </footer>
+    <!--FIN FOOTER-->
+</body>
+</html>

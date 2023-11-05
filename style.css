@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+h1 {
+    font-size: 200;
+    color: darkred;
+}
+
+header {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    height: 1500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.datos {
+    height: 400px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.botones {
+    height: 25px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+footer {
+    height: 500px;
+    width: 100%;
+}
